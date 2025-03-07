@@ -139,11 +139,13 @@ body {
   display: none;
 }
 
+
+
 @media (width >= 450px) {
   body {
     position: relative;
   }
-
+  
   .container {
     display: flex;
     align-items: center;
@@ -152,18 +154,19 @@ body {
     padding: 0px;
     border-radius: 10px;
 
+    
     .container__img {
       width: 300px;
       height: 360px;
       /* border-radius: 10px 0px 0px 10px; */
     }
   }
-
+  
   .contenido {
     width: 400px;
     height: 100%;
   }
-
+  
   .profile {
     .profile__div {
       margin-right: 10px;
@@ -171,17 +174,30 @@ body {
   }
 
   .redes__black {
+    position: absolute;
     align-items: center;
     background-color: var(--Very-Dark-Grayish-Blue);
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    position: absolute;
-    left: 500px;
-    bottom: 400px;
+    left: 960px;
+    bottom: 300px;
   }
-
+  
   .redes--shareIcon {
     display: none;
   }
+
+  .triangulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    left: 1075px;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    bottom: 292px;
+    position: absolute;
+  }
+
+
 }
